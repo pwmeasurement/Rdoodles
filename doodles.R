@@ -8,7 +8,7 @@ is.div.1t10 <- function(n) {
 }
 
 is.good <- function(stop=1000000) {
-  for(i in 1:stop) if(smallest.div.10(i)) return(i)
+  for(i in 1:stop) if(is.div.1t10(i)) return(i)
   return(NA)
 }
 
