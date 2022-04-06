@@ -1,3 +1,5 @@
+rm(list=ls()) 
+
 # function to find if a number is divisible by numbers 1:10
 is.div.1t10 <- function(n) {
   is.true <- TRUE
