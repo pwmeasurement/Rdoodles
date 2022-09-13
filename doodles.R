@@ -1,3 +1,4 @@
+
 rm(list=ls()) 
 
 # function to find if a number is divisible by numbers 1:10
